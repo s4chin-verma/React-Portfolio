@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 100px 0 100px;
+}
+
+
+h1 {
+    color: wheat;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    color: #666;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}

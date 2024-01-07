@@ -11,8 +11,8 @@ export default function App() {
       <Header />
       <Home />
       <Projects />
-      <TechStack />
-      <Footer />
+      {/* <TechStack />
+      <Footer />  */}
     </>
   )
 }
