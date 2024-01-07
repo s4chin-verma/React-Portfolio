@@ -4,7 +4,7 @@ import sachin from '../assets/sachin.png';
 
 export default function Home() {
     return (
-        <div className="home-container">
+        <section className="home-container">
             <div className="content-container">
                 <div className="heading-container">
                     <div className="intro-text">
@@ -31,6 +31,6 @@ export default function Home() {
                     <img src={sachin} alt="sachin" />
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

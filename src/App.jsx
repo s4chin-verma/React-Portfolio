@@ -8,11 +8,12 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <Header />
-      <Home />
+      {/* <Header /> */}
+      {/* <Home /> */}
       <Projects />
-      {/* <TechStack />
-      <Footer />  */}
+      {/* <TechStack /> */}
+      {/* <Footer /> */}
     </>
   )
 }
+
